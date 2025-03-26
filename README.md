@@ -5,11 +5,16 @@ For the past couple of months, I have been attending and studying for the Google
 # Background
 In today’s hyper-connected world, social media has become an inescapable part of daily life. As of 2025, billions of people scroll, post, and engage online, with platforms like Instagram, X, and LinkedIn shaping how we communicate, work, and feel. Yet, this digital immersion comes with a cost. Research increasingly links excessive social media use to shifts in mental health—sometimes boosting happiness through connection, other times fueling anxiety, sadness, or boredom through comparison and overload. Understanding these patterns is more urgent than ever as usage times climb, particularly among younger adults navigating a post-pandemic, screen-saturated reality.
 
-I am a data analyst working with MindSpace, a fictional mental health campaign company dedicated to raising awareness about the impact of social media on emotional well-being. Our mission is to empower individuals with insights to balance their digital habits. 
+I am a data analyst at MindSpace, a fictional mental health campaign company dedicated to raising awareness about social media’s impact on emotional well-being. Our mission is to empower individuals with insights to balance their digital habits. I chose this topic for my Path B capstone because I’ve seen firsthand how scrolling can shift my mood, and I’ll be analyzing a dataset of 1,000 users habits and emotions across different platforms to uncover broader trends.
 # Stage 1: Ask
 The business task set by our company is to investigate how social media usage influences users emotional well-being while identifying patterns than can promote healthier digital habits.
 
-The stakeholders involved are part of the MindSpace company, external mental health professionals, individuals seeking insights on their digital habits as well as social media platform representatives.
+Below, you can find the stakeholders and how they will leverage our findings: 
+
+* MindSpace: To design targeted awareness campaigns.
+* Mental Health Professionals: To advise clients on managing social media for better emotional health 
+* Individuals: To adjust their digital habits with actionable insights.
+* Platform Representatives : To enhance user experience and well-being features.
 
 The objectives include:
 
