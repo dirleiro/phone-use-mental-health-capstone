@@ -9,7 +9,7 @@ I am a data analyst at MindSpace, a fictional mental health campaign company ded
 # Stage 1: Ask
 The business task set by our company is to investigate how social media usage influences users emotional well-being while identifying patterns than can promote healthier digital habits.
 
-Below, you can find the stakeholders and how they will leverage our findings: 
+Stakeholders and how they will leverage our findings: 
 
 * MindSpace: To design targeted awareness campaigns.
 * Mental Health Professionals: To advise clients on managing social media for better emotional health 
