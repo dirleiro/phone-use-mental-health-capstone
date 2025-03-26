@@ -11,3 +11,11 @@ The business task set by our company is to investigate how social media usage in
 
 The stakeholders involved are part of the MindSpace company, external mental health professionals, individuals seeking insights on their digital habits as well as social media platform representatives.
 
+The objectives include:
+
+* Analyzing the relationship between social media usage patterns and dominant emotions to establish clear connections.  
+* Identifying specific platforms or behaviors linked to positive or negative emotional outcomes, pinpointing areas of opportunity or concern.  
+* Providing actionable recommendations for promoting healthier digital habits, based on the analysis, to improve users emotional well-being and support MindSpace’s goals.
+
+
+
