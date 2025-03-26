@@ -6,4 +6,8 @@ For the past couple of months, I have been attending and studying for the Google
 In today’s hyper-connected world, social media has become an inescapable part of daily life. As of 2025, billions of people scroll, post, and engage online, with platforms like Instagram, X, and LinkedIn shaping how we communicate, work, and feel. Yet, this digital immersion comes with a cost. Research increasingly links excessive social media use to shifts in mental health—sometimes boosting happiness through connection, other times fueling anxiety, sadness, or boredom through comparison and overload. Understanding these patterns is more urgent than ever as usage times climb, particularly among younger adults navigating a post-pandemic, screen-saturated reality.
 
 I am a data analyst working with MindSpace, a fictional mental health campaign company dedicated to raising awareness about the impact of social media on emotional well-being. Our mission is to empower individuals with insights to balance their digital habits. 
+# Stage 1: Ask
+The business task set by our company is to investigate how social media usage influences users emotional well-being while identifying patterns than can promote healthier digital habits.
+
+The stakeholders involved are part of the MindSpace company, external mental health professionals, individuals seeking insights on their digital habits as well as social media platform representatives.
 
