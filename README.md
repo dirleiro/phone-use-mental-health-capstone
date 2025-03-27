@@ -22,7 +22,7 @@ The objectives include:
 * Identifying specific platforms or behaviors linked to positive or negative emotional outcomes, pinpointing areas of opportunity or concern.  
 * Providing actionable recommendations for promoting healthier digital habits, based on the analysis, to improve users emotional well-being and support MindSpace’s goals.
 # Stage 2: Prepare
-The dataset used for this analysis is the [Social Media Usage and Emotional Well-Being](https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being/data) dataset, sourced from Kaggle and created by EMİRHAN BULUT. It contains 1,000 records of anonymized user data across various social media platforms, including Instagram, X and LinkedIn. The dataset includes the following key columns:
+The dataset used for this analysis is the [Social Media Usage and Emotional Well-Being](https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being/data) dataset, sourced from Kaggle and created by AI Inventor, Emirhan Bulut. It contains 1,000 records of anonymized user data across various social media platforms, including Instagram, X and LinkedIn. The dataset includes the following key columns:
 * User ID: A unique identifier for each user.
 * Age: The user’s age (ranging from 21 to 35).
 * Gender: Categorized as Male, Female, or Non-Binary.
@@ -34,7 +34,12 @@ The dataset used for this analysis is the [Social Media Usage and Emotional Well
 * Messages_Sent_Per_Day: Daily messages sent (8-50).
 * Dominant_Emotion: The user’s self-reported primary emotion (Happiness, Anger, Anxiety, Sadness, Neutral, Boredom).
 
-This dataset was chosen because it directly aligns with MindSpace’s mission to explore how social media usage impacts emotional well-being, providing a mix of quantitative usage metrics and qualitative emotional outcomes.
+This dataset’s mix of quantitative usage metrics and qualitative emotional outcomes directly supports MindSpace’s goal of exploring social media’s impact on emotional well-being.
+
+The dataset is provided in three CSV files — train.csv (1,000 rows), test.csv, and val.csv — designed for training, testing, and validation. For the purpose of this analysis, I’ll use train.csv.
+
+Regarding credibility, the dataset is hosted on Kaggle, a trusted data science platform. The dataset was meticulously crafted by Emirhan Bulut to simulate survey responses where users reported daily usage and emotions. While this design suits my educational capstone, its synthetic nature and lack of real-world collection details limit its authenticity. Potential biases include self-reported emotions (subjective accuracy), a narrow age range (21-35), and uneven platform representation (e.g, more Instagram users), which I’ll consider during analysis.
+
 
 
 
