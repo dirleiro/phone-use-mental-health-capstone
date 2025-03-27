@@ -46,8 +46,7 @@ Before cleaning, I am familiarizing myself with the data to find any inconsisten
 
 ![image](https://github.com/user-attachments/assets/86f2a85c-0dfb-4a22-8d52-da92c6f0eeb1)
 
-
+* There's text in row 1285 which should be deleted before our next step so that the dataset doesn't get messed up.
 * There are blank rows between each populated row. I am selecting columns A to J and then I am using the quick keys (Ctrl + G) to open the Go To tab. I click Special, select Blanks and click ok. All the blank cells are now selected. Right click, delete, shift cells up and all the blank spaces are gone.
-* User_ID column contains 1001 unique values. There's one user_ID called Tabii which contains text in age and normal inputs in all the other columns. Moreover, row with user_ID 1000 contains age but the rest of the columns are empty. My assumption was that there has been a mistake during the input of the data, therefore I merged these 2 rows.
-* Age column contains some rows with gender and vice versa. I created 2 new columns - 1 for age and 1 for gender, which I used in order to correct the wrongly distributed data. 
+* Age column contains some rows with gender and vice versa. I renamed Age column to Age_Old and Gender column to Gender_Old. I created 2 new columns - Age and Gender, which I used in order to correct the wrongly distributed data. For Age column, I used the formula =IF(ISNUMBER(B2),B2,C2) where B2 is Age_Old and C2 is Gender_Old. If the result is a number, then that number will be returned. Otherwise, we will have the value from Gender_Old column return, which is our Age. Similarly, in the Gender column we are using =IF(ISTEXT(C2),C2,B2) formula to get all the correct inputs in our Gender column.
 
