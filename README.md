@@ -39,7 +39,15 @@ This dataset’s mix of quantitative usage metrics and qualitative emotional out
 The dataset is provided in three CSV files — train.csv (1,000 rows), test.csv, and val.csv — designed for training, testing, and validation. For the purpose of this analysis, I’ll use train.csv.
 
 Regarding credibility, the dataset is hosted on Kaggle, a trusted data science platform. The dataset was meticulously crafted by Emirhan Bulut to simulate survey responses where users reported daily usage and emotions. While this design suits my educational capstone, its synthetic nature and lack of real-world collection details limit its authenticity. Potential biases include self-reported emotions (subjective accuracy), a narrow age range (21-35), and uneven platform representation (e.g, more Instagram users), which I’ll consider during analysis.
+# Stage 3: Process
+For this process, I'll use **Excel** for initial exploration and basic cleaning due to its accessibility and familiarity. Moreover, it is efficient for handling 1,000 rows.
+
+Before cleaning, I am familiarizing myself with the data to find any inconsistencies.
+
+![image](https://github.com/user-attachments/assets/86f2a85c-0dfb-4a22-8d52-da92c6f0eeb1)
 
 
-
+* There are blank rows between each populated row. I am selecting columns A to J and then I am using the quick keys (Ctrl + G) to open the Go To tab. I click Special, select Blanks and click ok. All the blank cells are now selected. Right click, delete, shift cells up and all the blank spaces are gone.
+* User_ID column contains 1001 unique values. There's one user_ID called Tabii which contains text in age and normal inputs in all the other columns. Moreover, row with user_ID 1000 contains age but the rest of the columns are empty. My assumption was that there has been a mistake during the input of the data, therefore I merged these 2 rows.
+* Age column contains some rows with gender and vice versa. I created 2 new columns - 1 for age and 1 for gender, which I used in order to correct the wrongly distributed data. 
 
