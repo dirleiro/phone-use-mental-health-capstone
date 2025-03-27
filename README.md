@@ -9,7 +9,7 @@ I am a data analyst at MindSpace, a fictional mental health campaign company ded
 # Stage 1: Ask
 The business task set by our company is to investigate how social media usage influences users emotional well-being while identifying patterns than can promote healthier digital habits.
 
-Stakeholders and how they will leverage our findings: 
+The stakeholders and how they will leverage our findings: 
 
 * MindSpace: To design targeted awareness campaigns.
 * Mental Health Professionals: To advise clients on managing social media for better emotional health 
@@ -21,6 +21,20 @@ The objectives include:
 * Analyzing the relationship between social media usage patterns and dominant emotions to establish clear connections.  
 * Identifying specific platforms or behaviors linked to positive or negative emotional outcomes, pinpointing areas of opportunity or concern.  
 * Providing actionable recommendations for promoting healthier digital habits, based on the analysis, to improve users emotional well-being and support MindSpace’s goals.
+# Stage 2: Prepare
+The dataset used for this analysis is the [Social Media Usage and Emotional Well-Being](https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being/data) dataset, sourced from Kaggle and created by EMİRHAN BULUT. It contains 1,000 records of anonymized user data across various social media platforms, including Instagram, X and LinkedIn. The dataset includes the following key columns:
+* User ID: A unique identifier for each user.
+* Age: The user’s age (ranging from 21 to 35).
+* Gender: Categorized as Male, Female, or Non-Binary.
+* Platform: The social media platform the user primarily engages with.
+* Daily Usage (minutes): Minutes spent daily on the platform (40-200 minutes).
+* Posts_Per_Day: Number of posts made daily (1-8).
+* Likes_Received_Per_Day: Daily likes received (5-110).
+* Comments_Received_Per_Day: Daily comments received (2-40).
+* Messages_Sent_Per_Day: Daily messages sent (8-50).
+* Dominant_Emotion: The user’s self-reported primary emotion (Happiness, Anger, Anxiety, Sadness, Neutral, Boredom).
+
+This dataset was chosen because it directly aligns with MindSpace’s mission to explore how social media usage impacts emotional well-being, providing a mix of quantitative usage metrics and qualitative emotional outcomes.
 
 
 
