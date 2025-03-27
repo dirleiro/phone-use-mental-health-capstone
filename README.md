@@ -48,5 +48,12 @@ Before cleaning, I am familiarizing myself with the data to find any inconsisten
 
 * There's text in row 1285 which should be deleted before our next step so that the dataset doesn't get messed up.
 * There are blank rows between each populated row. I am selecting columns A to J and then I am using the quick keys (Ctrl + G) to open the Go To tab. I click Special, select Blanks and click ok. All the blank cells are now selected. Right click, delete, shift cells up and all the blank spaces are gone.
-* Age column contains some rows with gender and vice versa. I renamed Age column to Age_Old and Gender column to Gender_Old. I created 2 new columns - Age and Gender, which I used in order to correct the wrongly distributed data. For Age column, I used the formula =IF(ISNUMBER(B2),B2,C2) where B2 is Age_Old and C2 is Gender_Old. If the result is a number, then that number will be returned. Otherwise, we will have the value from Gender_Old column return, which is our Age. Similarly, in the Gender column we are using =IF(ISTEXT(C2),C2,B2) formula to get all the correct inputs in our Gender column.
+* Age column contains some rows with gender and vice versa. I created 2 new columns - 1 for Age and 1 for Gender, which I used in order to correct the wrongly distributed data. For Age column, I used the formula =IF(ISNUMBER(B2),B2,C2) where B2 is Age_Old and C2 is Gender_Old. If the result is a number, then that number will be returned. Otherwise, we will have the value from Gender_Old column return, which is our Age. Similarly, in the Gender column we are using =IF(ISTEXT(C2),C2,B2) formula to get all the correct inputs in our Gender column. I dragged the formulas down to get the data for all the rows. Finally, I copied the 2 new columns and pasted as values over the old columns, replacing Age and Gender with the correct values.
+* I renamed Twitter to X in the Platform column. Then I proceeded with renaming every column and removing caps, making it easier for my next steps.
+* I created a new column called daily_usage_time_hours which was daily_usage_time_minutes divided by 60.
+* I created a new column called age_group using the formula blah where i divided the users in 3 different groups using the =IF(AND(B2>=21,B2<=25),"21-25",IF(AND(B2>=26,B2<=30),"26-30","31-35")) formula.
+* I copy-pasted as values all the columns that contained formulas.
+* The dataset is clean and ready to be used.
+
+![image](https://github.com/user-attachments/assets/af2bbb66-26b4-4847-ac5c-6f6037180942)
 
