@@ -53,9 +53,13 @@ Before cleaning, I am familiarizing myself with the data to find any inconsisten
 * I created a new column called daily_usage_time_hours which was daily_usage_time_minutes divided by 60.
 * I created a new column called age_group using the formula blah where i divided the users in 3 different groups using the =IF(AND(B2>=21,B2<=25),"21-25",IF(AND(B2>=26,B2<=30),"26-30","31-35")) formula.
 * I copy-pasted as values all the columns that contained formulas.
+* I verified the number of rows and validated that my new columns are consistent.
 * The dataset is clean and ready to be used.
 
-![image](https://github.com/user-attachments/assets/a86b3b36-007d-4ef1-9071-0263722358eb)
+![image](https://github.com/user-attachments/assets/b74b4507-71d0-4dc1-9fcb-3701a81e4a7a)
+
+# Stage 4: Analyze
+As I have the most experience with Excel, I decided to continue my analysis using R tool. It was a great opportunity for me to test what I learned from the Data Analytics course.
 
 
 
