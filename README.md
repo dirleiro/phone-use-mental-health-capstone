@@ -55,5 +55,9 @@ Before cleaning, I am familiarizing myself with the data to find any inconsisten
 * I copy-pasted as values all the columns that contained formulas.
 * The dataset is clean and ready to be used.
 
-![image](https://github.com/user-attachments/assets/af2bbb66-26b4-4847-ac5c-6f6037180942)
+![image](https://github.com/user-attachments/assets/a86b3b36-007d-4ef1-9071-0263722358eb)
+
+
+
+
 
