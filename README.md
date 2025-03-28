@@ -83,7 +83,24 @@ Happiness drives the highest engagement across all metrics, with users experienc
 
 In contrast, Boredom consistently results in the lowest engagement, with medians of 15 likes, 1 post, 10 comments, and 10 messages per day.
 
+![image](https://github.com/user-attachments/assets/86d1a492-e81f-463f-8dc4-f5aed28a0a5b)
 
+The 21–25 age group exhibits the highest Happiness (30%) and the lowest negative emotions (Sadness, Anger, Anxiety at 10% each), while the 26–30 age group shows a peak in Anxiety (25%). In contrast, the 31–35 age group has the highest Sadness (25%) and increased Boredom (20%), indicating a shift toward more negative emotions with age.
+
+![image](https://github.com/user-attachments/assets/1d49517e-c657-4f5d-9027-c79a116df6dc)
+
+Non-binary users experience the highest levels of Sadness (25%) and Anxiety (20%) with the lowest Happiness (10%), while female users report the highest Happiness (25%) and the lowest Anger (10%). Male users show a balanced emotional distribution but have a higher Anger (15%) compared to female and non-binary users (10% each).
+
+Table: Summary Statistics by Dominant Emotion
+
+|dominant_emotion | Avg_Usage_Time| Avg_Posts| Avg_Likes| Avg_Comments| Avg_Messages|
+|:----------------|--------------:|---------:|---------:|------------:|------------:|
+|Sadness          |           83.8|       3.1|      33.0|         12.8|         21.0|
+|Anger            |           90.0|       3.7|      38.2|         18.5|         22.4|
+|Anxiety          |           95.6|       3.0|      40.1|         15.3|         23.9|
+|Boredom          |           63.9|       1.6|      15.4|          7.0|         14.1|
+|Neutral          |           77.8|       2.4|      27.8|         10.9|         18.5|
+|Happiness        |          150.5|       5.7|      75.6|         26.9|         32.7|
 
 
 
