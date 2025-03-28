@@ -75,6 +75,13 @@ Instagram has the highest percentage of users reporting Happiness (40%), making 
 
 On the contrary, X has the highest levels of Anger (30%) and Sadness (25%), with Happiness at a mere 10%. This suggests that X may be a platform where users encounter more contentious or distressing content, possibly due to its focus on real-time news, debates, and polarizing discussions.
 
+After comparing social platforms, I proceeded with comparing the different engagement metrics with the dominant emotions.
+
+![image](https://github.com/user-attachments/assets/f149b04b-383d-453b-a0f3-7fb134530beb)
+
+Happiness drives the highest engagement across all metrics, with users experiencing this emotion receiving a median of 40 likes, posting 4 times, receiving 25 comments, and sending 30 messages per day. 
+
+In contrast, Boredom consistently results in the lowest engagement, with medians of 15 likes, 1 post, 10 comments, and 10 messages per day.
 
 
 
