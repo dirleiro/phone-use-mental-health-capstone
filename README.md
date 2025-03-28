@@ -67,6 +67,16 @@ My first step was to check how daily usage time reflects on the emotions.
 
 I was quite surprised seeing that higher usage time meant higher happiness. When I started the analysis, I expected that users would experience more negative emotions, the more they got to use their social media.
 
+![image](https://github.com/user-attachments/assets/a8f563f5-2b30-4680-aef7-d22f347f562e)
+
+As a next step, I created a stacked bar chart, containing the % of each emotion on each platform.
+
+Instagram has the highest percentage of users reporting Happiness (40%), making it the platform most associated with positive emotions. This could be due to its focus on visual content, filters, and aspirational lifestyles, which often evoke positive feelings.
+
+On the contrary, X has the highest levels of Anger (30%) and Sadness (25%), with Happiness at a mere 10%. This suggests that X may be a platform where users encounter more contentious or distressing content, possibly due to its focus on real-time news, debates, and polarizing discussions.
+
+
+
 
 
 
