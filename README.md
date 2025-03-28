@@ -61,6 +61,11 @@ Before cleaning, I am familiarizing myself with the data to find any inconsisten
 # Stage 4: Analyze
 As I have the most experience with Excel, I decided to continue my analysis using R tool. It was a great opportunity for me to test what I learned from the Data Analytics course.
 
+My first step was to check how daily usage time reflects on the emotions.
+
+![image](https://github.com/user-attachments/assets/49b2d299-b3e2-48b3-ae5e-6862944fb1a9)
+
+I was quite surprised seeing that higher usage time meant higher happiness. When I started the analysis, I expected that users would experience more negative emotions, the more they got to use their social media.
 
 
 
