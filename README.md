@@ -65,31 +65,35 @@ My first step was to check how daily usage time reflects on the emotions.
 
 ![image](https://github.com/user-attachments/assets/49b2d299-b3e2-48b3-ae5e-6862944fb1a9)
 
-I was quite surprised seeing that higher usage time meant higher happiness. When I started the analysis, I expected that users would experience more negative emotions, the more they got to use their social media.
+I was surprised seeing that higher usage time was associated with higher happiness. When I started the analysis, I expected that users would experience more negative emotions, the more they got to use their social media.
 
 As a next step, I created a stacked bar chart, containing the % of each emotion on each platform.
 
 ![image](https://github.com/user-attachments/assets/a8f563f5-2b30-4680-aef7-d22f347f562e)
 
-Instagram has the highest percentage of users reporting Happiness (40%), making it the platform most associated with positive emotions. This could be due to its focus on visual content, filters, and aspirational lifestyles, which often evoke positive feelings.
+Instagram fosters the highest Happiness (40%), followed by Snapchat (30%), while X has the highest Anger (30%) and Sadness (25%).
 
-On the contrary, X has the highest levels of Anger (30%) and Sadness (25%), with Happiness at a mere 10%. This suggests that X may be a platform where users encounter more contentious or distressing content, possibly due to its focus on real-time news, debates, and polarizing discussions.
+Instagram and Snapchat’s focus on visual storytelling, filters, and casual interactions likely promotes positive emotions, whereas X’s real-time, debate-driven environment may expose users to contentious or distressing content, leading to more negative emotions.
 
 After comparing social platforms, I proceeded with comparing the different engagement metrics with the dominant emotions.
 
 ![image](https://github.com/user-attachments/assets/f149b04b-383d-453b-a0f3-7fb134530beb)
 
-Happiness drives the highest engagement across all metrics, with users experiencing this emotion receiving a median of 40 likes, posting 4 times, receiving 25 comments, and sending 30 messages per day. 
+Happiness drives the highest engagement across all metrics, with medians of 40 likes, 4 posts, 25 comments, and 30 messages per day, showing that happy users are the most active. Positive emotions likely encourage users to share more content, interact with others, and engage in social behaviors, as Happiness fosters a sense of connection and reward on platforms.
 
-In contrast, Boredom consistently results in the lowest engagement, with medians of 15 likes, 1 post, 10 comments, and 10 messages per day.
+Anger leads to the most comments among negative emotions (median 20 comments), while Boredom consistently has the lowest engagement (medians of 15 likes, 1 post, 10 comments, 10 messages). Angry users may post provocative content that sparks debates, leading to more comments, whereas bored users lack motivation to engage, resulting in minimal activity.
 
 ![image](https://github.com/user-attachments/assets/86d1a492-e81f-463f-8dc4-f5aed28a0a5b)
 
-The 21–25 age group exhibits the highest Happiness (30%) and the lowest negative emotions (Sadness, Anger, Anxiety at 10% each), while the 26–30 age group shows a peak in Anxiety (25%). In contrast, the 31–35 age group has the highest Sadness (25%) and increased Boredom (20%), indicating a shift toward more negative emotions with age.
+The 21–25 age group reports the highest Happiness (30%) and the lowest negative emotions (Sadness, Anger, Anxiety at 10% each), while Happiness decreases with age (20% for 26–30 and 31–35). Younger users (21–25) may be more carefree, using platforms for entertainment and social connection, while older users face more life stressors (e.g., career, relationships), reducing Happiness and increasing negative emotions.
+
+The 26–30 age group has the highest Anxiety (25%), and the 31–35 age group has the highest Sadness (25%) and Boredom (20%). The 26–30 group might experience anxiety due to life transitions (e.g., job changes, relationships), while the 31–35 group’s Sadness and Boredom could stem from reflection or feeling disconnected as they age.
 
 ![image](https://github.com/user-attachments/assets/1d49517e-c657-4f5d-9027-c79a116df6dc)
 
-Non-binary users experience the highest levels of Sadness (25%) and Anxiety (20%) with the lowest Happiness (10%), while female users report the highest Happiness (25%) and the lowest Anger (10%). Male users show a balanced emotional distribution but have a higher Anger (15%) compared to female and non-binary users (10% each).
+Non-binary users report the highest Sadness (25%) and Anxiety (20%) with the lowest Happiness (10%), indicating a more negative emotional experience. Non-binary users may face societal challenges, discrimination, or lack of inclusive content on platforms, contributing to higher negative emotions and lower Happiness.
+
+Female users have the highest Happiness (25%) and the lowest Anger (10%), while male users report more Anger (15%) than female and non-binary users (10% each). Female users might engage more with Happiness-driven platforms like Instagram, while male users may be more exposed to or participate in contentious interactions (e.g., debates on X), leading to higher Anger.
 
 Table: Summary Statistics by Dominant Emotion
 
@@ -101,6 +105,12 @@ Table: Summary Statistics by Dominant Emotion
 |Boredom          |           63.9|       1.6|      15.4|          7.0|         14.1|
 |Neutral          |           77.8|       2.4|      27.8|         10.9|         18.5|
 |Happiness        |          150.5|       5.7|      75.6|         26.9|         32.7|
+
+Happiness has the highest averages across all metrics: 150.5 minutes of usage time, 5.7 posts, 75.6 likes, 26.9 comments, and 32.7 messages per day, reinforcing its role as the primary driver of engagement. Happy users are likely motivated by positive reinforcement (e.g., likes, comments) and social connection, leading to prolonged and active engagement on platforms.
+
+Boredom has the lowest averages (63.9 minutes, 1.6 posts, 15.4 likes, 7.0 comments, 14.1 messages), while Anger leads in comments (18.5) among negative emotions. Boredom’s low engagement reflects a lack of motivation to interact, while Anger’s high comments suggest that angry users post content that provokes reactions, possibly due to controversial or emotional topics.
+
+
 
 
 
