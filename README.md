@@ -64,23 +64,25 @@ The dataset was now clean and ready for analysis.
 # Stage 4: Analyze
 While I have the most experience with Excel, I chose to perform this analysis in R to leverage its advanced visualization and statistical capabilities, which I learned during the Google Data Analytics course. This was an opportunity to apply my new R skills. I began by importing the cleaned dataset (train.csv) into R, using the read.csv() function, and then used packages like ggplot2 for visualizations and dplyr for data manipulation.
 
+**Step 1: Daily Usage Time vs Dominant Emotions**
 My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness). The resulting visualization is shown below:
 
 ![image](https://github.com/user-attachments/assets/298350f4-a19f-4a86-9eb4-05ebca6d1fc8)
 
-The box plot highlights clear patterns in usage time across emotions. Happiness users show the highest median usage time at approximately 150 minutes, with a tight interquartile range (IQR) of 130 to 170 minutes, indicating consistent engagement. In contrast, Boredom users have the lowest median at around 60 minutes (IQR: 50 to 70 minutes), suggesting disengagement. Negative emotions like Anger (median 90 minutes), Anxiety (95 minutes), and Sadness (85 minutes) fall in between, with wider spreads and outliers—Anxiety, for instance, has outliers up to 200 minutes, hinting at excessive scrolling as a possible coping mechanism. 
+The box plot reveals how daily social media usage time relates to users’ emotions, with the line inside each box showing the median—the point where half the users spend more time and half spend less. Happiness stands out, with users spending the most time online, slightly above 150 minutes daily, suggesting that social media often brings joy or connection for these users. In contrast, Boredom users spend the least time, around 60 minutes, indicating disengagement. Negative emotions like Anger, Anxiety, and Sadness fall in between, with some anxious users spending much longer, possibly using social media to cope. 
 
-I found it unexpected that higher usage time correlated with Happiness, as I initially expected prolonged social media use to increase negative emotions like Anxiety or Sadness due to comparison or information overload. This suggests social media may often be a source of joy or connection, though outliers in negative emotions indicate a need to explore individual differences further.
+I was surprised that more time online correlated with Happiness, as I expected negative emotions like Anxiety or Sadness to dominate due to comparison or overload. This suggests social media can be a positive outlet for many, though the patterns in negative emotions highlight the need to explore why some users may struggle.
 
-As a next step, I created a stacked bar chart, containing the % of each emotion on each platform.
+**Step 2: Emotion Distribution Across Platforms**
+Building on the usage time analysis, I sought to understand how emotional experiences vary by platform. Using R, I created a stacked bar chart with ggplot2, displaying the percentage of each dominant emotion across the platforms in the dataset (Facebook, Instagram, LinkedIn, Snapchat, Telegram, Whatsapp, X). The visualization is shown below:
 
-![image](https://github.com/user-attachments/assets/a8f563f5-2b30-4680-aef7-d22f347f562e)
+![image](https://github.com/user-attachments/assets/772121ec-74a8-451c-aae0-8394d497bf9c)
 
-Instagram fosters the highest Happiness (40%), followed by Snapchat (30%), while X has the highest Anger (30%) and Sadness (25%).
+The chart shows how emotions vary across platforms. Instagram stands out with a strong link to Happiness, suggesting its visual content often brings joy to users. In contrast, X is heavily tied to Anger, likely due to its debate-driven nature. Platforms like Snapchat and Whatsapp lean toward Neutral emotions, indicating they may feel more functional than emotionally charged. LinkedIn shows a mix of Boredom and Anxiety, possibly reflecting professional pressures. 
 
-Instagram and Snapchat’s focus on visual storytelling, filters, and casual interactions likely promotes positive emotions, whereas X’s real-time, debate-driven environment may expose users to contentious or distressing content, leading to more negative emotions.
+These patterns suggest MindSpace can promote platforms like Instagram for positive engagement while addressing X’s potential to spark negativity.
 
-After comparing social platforms, I proceeded with comparing the different engagement metrics with the dominant emotions.
+**Step 3: 
 
 ![image](https://github.com/user-attachments/assets/f149b04b-383d-453b-a0f3-7fb134530beb)
 
