@@ -68,7 +68,9 @@ My first step was to explore how daily usage time correlates with users’ domin
 
 ![image](https://github.com/user-attachments/assets/298350f4-a19f-4a86-9eb4-05ebca6d1fc8)
 
-I was surprised seeing that higher usage time was associated with higher happiness. When I started the analysis, I expected that users would experience more negative emotions, the more they got to use their social media.
+The box plot highlights clear patterns in usage time across emotions. Happiness users show the highest median usage time at approximately 150 minutes, with a tight interquartile range (IQR) of 130 to 170 minutes, indicating consistent engagement. In contrast, Boredom users have the lowest median at around 60 minutes (IQR: 50 to 70 minutes), suggesting disengagement. Negative emotions like Anger (median 90 minutes), Anxiety (95 minutes), and Sadness (85 minutes) fall in between, with wider spreads and outliers—Anxiety, for instance, has outliers up to 200 minutes, hinting at excessive scrolling as a possible coping mechanism. 
+
+I found it unexpected that higher usage time correlated with Happiness, as I initially expected prolonged social media use to increase negative emotions like Anxiety or Sadness due to comparison or information overload. This suggests social media may often be a source of joy or connection, though outliers in negative emotions indicate a need to explore individual differences further.
 
 As a next step, I created a stacked bar chart, containing the % of each emotion on each platform.
 
