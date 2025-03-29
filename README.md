@@ -64,9 +64,10 @@ The dataset was now clean and ready for analysis.
 # Stage 4: Analyze
 While I have the most experience with Excel, I chose to perform this analysis in R to leverage its advanced visualization and statistical capabilities, which I learned during the Google Data Analytics course. This was an opportunity to apply my new R skills. I began by importing the cleaned dataset (train.csv) into R, using the read.csv() function, and then used packages like ggplot2 for visualizations and dplyr for data manipulation.
 
-My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Happiness, Anger, Anxiety, Sadness, Neutral, Boredom). The resulting visualization is shown below:
+My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness). The resulting visualization is shown below:
 
-![image](https://github.com/user-attachments/assets/49b2d299-b3e2-48b3-ae5e-6862944fb1a9)
+Figure 1: From Sadness to Happiness: The Time We Spend Online
+![image](https://github.com/user-attachments/assets/298350f4-a19f-4a86-9eb4-05ebca6d1fc8)
 
 I was surprised seeing that higher usage time was associated with higher happiness. When I started the analysis, I expected that users would experience more negative emotions, the more they got to use their social media.
 
