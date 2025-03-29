@@ -26,7 +26,7 @@ The business task set by our company is to investigate how daily social media us
 * Identify platforms and behaviors linked to positive or negative emotions.  
 * Provide actionable recommendations to improve well-being, supporting MindSpace’s mission.
 # Stage 2: Prepare
-The dataset used for this analysis is the [Social Media Usage and Emotional Well-Being](https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being/data) dataset, sourced from Kaggle and created by AI Inventor, Emirhan Bulut. It contains 1,000 records of anonymized user data across various social media platforms, including Instagram, X and LinkedIn. The dataset includes the following key columns:
+The dataset used, [Social Media Usage and Emotional Well-Being](https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being/data), was sourced from Kaggle and created by AI Inventor, Emirhan Bulut. It contains 1,000 records of anonymized user data across various social media platforms, including Instagram, X and LinkedIn. The dataset is provided in three CSV files — train.csv (1,000 rows), test.csv, and val.csv — designed for training, testing, and validation. For the purpose of this analysis, I’ll use train.csv. It includes the following key columns:
 * User ID: A unique identifier for each user.
 * Age: The user’s age (ranging from 21 to 35).
 * Gender: Categorized as Male, Female, or Non-Binary.
@@ -36,29 +36,28 @@ The dataset used for this analysis is the [Social Media Usage and Emotional Well
 * Likes_Received_Per_Day: Daily likes received (5-110).
 * Comments_Received_Per_Day: Daily comments received (2-40).
 * Messages_Sent_Per_Day: Daily messages sent (8-50).
-* Dominant_Emotion: The user’s self-reported primary emotion (Happiness, Anger, Anxiety, Sadness, Neutral, Boredom).
+* Dominant_Emotion: The user’s self-reported primary emotion (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness).
 
-This dataset’s mix of quantitative usage metrics and qualitative emotional outcomes directly supports MindSpace’s goal of exploring social media’s impact on emotional well-being.
+This dataset’s mix of quantitative usage metrics and qualitative emotional outcomes directly supports MindSpace’s goal of linking usage to emotions.
 
-The dataset is provided in three CSV files — train.csv (1,000 rows), test.csv, and val.csv — designed for training, testing, and validation. For the purpose of this analysis, I’ll use train.csv.
-
-Regarding credibility, the dataset is hosted on Kaggle, a trusted data science platform. The dataset was meticulously crafted by Emirhan Bulut to simulate survey responses where users reported daily usage and emotions. While this design suits my educational capstone, its synthetic nature and lack of real-world collection details limit its authenticity. Potential biases include self-reported emotions (subjective accuracy), a narrow age range (21-35), and uneven platform representation (e.g, more Instagram users), which I’ll consider during analysis.
+Hosted on Kaggle, the dataset is credible for educational purposes, but its synthetic nature and lack of real-world collection details limit authenticity. Biases include subjective self-reported emotions, a narrow 21-35 age range (excluding older/younger users), and uneven platform representation (e.g., Instagram’s prominence), which may skew emotional trends.
 # Stage 3: Process
-For this process, I'll use **Excel** for initial exploration and basic cleaning due to its accessibility and familiarity. Moreover, it is efficient for handling 1,000 rows.
+I used Excel for cleaning due to its accessibility, familiarity, and efficiency for 1,000 rows, though larger datasets might require R or SQL. Steps:  
 
-Before cleaning, I am familiarizing myself with the data to find any inconsistencies.
+**Steps**
+
+* *Remove Extraneous Text Row*: During initial inspection, I identified text in row 1285 (beyond the intended 1,000 data rows) that appeared to be extraneous or erroneous, such as metadata or a data entry mistake. To prevent this from disrupting subsequent analysis, I selected row 1285, deleted it entirely using Excel’s ‘Delete Row’ function (right-click > Delete), and verified that the dataset retained only the 1,000 valid records. This step ensured no non-data elements interfered with cleaning or analysis. 
 
 ![image](https://github.com/user-attachments/assets/86f2a85c-0dfb-4a22-8d52-da92c6f0eeb1)
 
-* There's text in row 1285 which should be deleted before our next step so that the dataset doesn't get messed up.
-* There are blank rows between each populated row. I am selecting columns A to J and then I am using the quick keys (Ctrl + G) to open the Go To tab. I click Special, select Blanks and click ok. All the blank cells are now selected. Right click, delete, shift cells up and all the blank spaces are gone.
-* Age column contains some rows with gender and vice versa. I created 2 new columns - 1 for Age and 1 for Gender, which I used in order to correct the wrongly distributed data. For Age column, I used the formula =IF(ISNUMBER(B2),B2,C2) where B2 is Age_Old and C2 is Gender_Old. If the result is a number, then that number will be returned. Otherwise, we will have the value from Gender_Old column return, which is our Age. Similarly, in the Gender column we are using =IF(ISTEXT(C2),C2,B2) formula to get all the correct inputs in our Gender column. I dragged the formulas down to get the data for all the rows. Finally, I copied the 2 new columns and pasted as values over the old columns, replacing Age and Gender with the correct values.
-* I renamed Twitter to X in the Platform column. Then I proceeded with renaming every column and removing caps, making it easier for my next steps.
-* I created a new column called daily_usage_time_hours which was daily_usage_time_minutes divided by 60.
-* I created a new column called age_group using the formula blah where i divided the users in 3 different groups using the =IF(AND(B2>=21,B2<=25),"21-25",IF(AND(B2>=26,B2<=30),"26-30","31-35")) formula.
-* I copy-pasted as values all the columns that contained formulas.
-* I verified the number of rows and validated that my new columns are consistent.
-* The dataset is clean and ready to be used.
+* *Removed Blank Rows*: Selected columns A-J, used Ctrl+G > Special > Blanks, and deleted blank rows by shifting cells up, consolidating the dataset.  
+* *Corrected Age/Gender Swaps*: Some rows had age and gender values swapped. Created new columns: ‘Age’ with =IF(ISNUMBER(B2),B2,C2) to keep numbers, and ‘Gender’ with =IF(ISTEXT(C2),C2,B2) to keep text. Copied these as values to replace the original columns, ensuring accurate demographic data.  
+* *Updated Platform Names*: Renamed ‘Twitter’ to ‘X’ in the Platform column for consistency with current branding. 
+* *Standardized Column Names*: Converted column names to lowercase (e.g., ‘daily_usage_time_minutes’) for ease of use in analysis.  
+* *Added Derived Columns*: Created ‘daily_usage_time_hours’ (=daily_usage_time_minutes/60) and ‘age_group’ (=IF(AND(B2>=21,B2<=25),'21-25',IF(AND(B2>=26,B2<=30),'26-30','31-35'))) to enhance analysis. Copied these as values.  
+* *Verified Data Integrity*: Confirmed the dataset retained 1,000 rows and checked new columns for consistency (e.g., no blanks or errors).
+
+The dataset was now clean and ready for analysis.
 
 ![image](https://github.com/user-attachments/assets/b74b4507-71d0-4dc1-9fcb-3701a81e4a7a)
 
