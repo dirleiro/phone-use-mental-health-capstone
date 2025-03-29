@@ -84,7 +84,7 @@ The chart shows how emotions vary across platforms. Instagram stands out with a 
 
 These patterns suggest MindSpace can promote platforms like Instagram for positive engagement while addressing X’s potential to spark negativity.
 
-**Step 3: Engagement Metrics by Emotion
+**Step 3: Engagement Metrics by Emotion**
 
 Next, I explored how emotions influence online engagement, focusing on likes, posts, comments, and messages per day. I created a set of box plots in R using ggplot2 to visualize these engagement metrics across each dominant emotion. The visualization is shown below:
 
@@ -94,7 +94,7 @@ The chart reveals how emotions shape online interactions. Happiness users are th
 
 For MindSpace, this suggests encouraging active, positive engagement while supporting users who may use comments to express Anger or Anxiety.
 
-**Step 4: Emotion Distribution by Age Group
+**Step 4: Emotion Distribution by Age Group**
 
 Happiness drives the highest engagement across all metrics, with medians of 40 likes, 4 posts, 25 comments, and 30 messages per day, showing that happy users are the most active. Positive emotions likely encourage users to share more content, interact with others, and engage in social behaviors, as Happiness fosters a sense of connection and reward on platforms.
 
@@ -106,7 +106,7 @@ The 21–25 age group reports the highest Happiness (30%) and the lowest negativ
 
 The 26–30 age group has the highest Anxiety (25%), and the 31–35 age group has the highest Sadness (25%) and Boredom (20%). The 26–30 group might experience anxiety due to life transitions (e.g., job changes, relationships), while the 31–35 group’s Sadness and Boredom could stem from reflection or feeling disconnected as they age.
 
-**Step 5: Emotion Distribution by Gender
+**Step 5: Emotion Distribution by Gender**
 
 ![image](https://github.com/user-attachments/assets/e2c94ee1-36e6-4e2a-a65e-cc5e6e1ce72a)
 
