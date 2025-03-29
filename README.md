@@ -66,7 +66,6 @@ While I have the most experience with Excel, I chose to perform this analysis in
 
 My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness). The resulting visualization is shown below:
 
-*Figure 1*
 ![image](https://github.com/user-attachments/assets/298350f4-a19f-4a86-9eb4-05ebca6d1fc8)
 
 I was surprised seeing that higher usage time was associated with higher happiness. When I started the analysis, I expected that users would experience more negative emotions, the more they got to use their social media.
