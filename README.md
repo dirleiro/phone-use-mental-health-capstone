@@ -84,21 +84,31 @@ The chart shows how emotions vary across platforms. Instagram stands out with a 
 
 These patterns suggest MindSpace can promote platforms like Instagram for positive engagement while addressing X’s potential to spark negativity.
 
-**Step 3: 
+**Step 3: Engagement Metrics by Emotion
 
-![image](https://github.com/user-attachments/assets/f149b04b-383d-453b-a0f3-7fb134530beb)
+Next, I explored how emotions influence online engagement, focusing on likes, posts, comments, and messages per day. I created a set of box plots in R using ggplot2 to visualize these engagement metrics across each dominant emotion. The visualization is shown below:
+
+![image](https://github.com/user-attachments/assets/a5350112-48b4-4f97-8eb3-f79817542bc4)
+
+The chart reveals how emotions shape online interactions. Happiness users are the most active, receiving the most likes, posting frequently, and engaging through comments and messages, suggesting they thrive on social connection. In contrast, Boredom users show the least engagement across all metrics, indicating a lack of interest in interacting. Anger and Anxiety users comment more than others, possibly reflecting heated debates or seeking support. 
+
+For MindSpace, this suggests encouraging active, positive engagement while supporting users who may use comments to express Anger or Anxiety.
+
+**Step 4: Emotion Distribution by Age Group
 
 Happiness drives the highest engagement across all metrics, with medians of 40 likes, 4 posts, 25 comments, and 30 messages per day, showing that happy users are the most active. Positive emotions likely encourage users to share more content, interact with others, and engage in social behaviors, as Happiness fosters a sense of connection and reward on platforms.
 
 Anger leads to the most comments among negative emotions (median 20 comments), while Boredom consistently has the lowest engagement (medians of 15 likes, 1 post, 10 comments, 10 messages). Angry users may post provocative content that sparks debates, leading to more comments, whereas bored users lack motivation to engage, resulting in minimal activity.
 
-![image](https://github.com/user-attachments/assets/86d1a492-e81f-463f-8dc4-f5aed28a0a5b)
+![image](https://github.com/user-attachments/assets/bd5ac9b9-6f8e-4a99-b49c-12c758d1e7c7)
 
 The 21–25 age group reports the highest Happiness (30%) and the lowest negative emotions (Sadness, Anger, Anxiety at 10% each), while Happiness decreases with age (20% for 26–30 and 31–35). Younger users (21–25) may be more carefree, using platforms for entertainment and social connection, while older users face more life stressors (e.g., career, relationships), reducing Happiness and increasing negative emotions.
 
 The 26–30 age group has the highest Anxiety (25%), and the 31–35 age group has the highest Sadness (25%) and Boredom (20%). The 26–30 group might experience anxiety due to life transitions (e.g., job changes, relationships), while the 31–35 group’s Sadness and Boredom could stem from reflection or feeling disconnected as they age.
 
-![image](https://github.com/user-attachments/assets/1d49517e-c657-4f5d-9027-c79a116df6dc)
+**Step 5: Emotion Distribution by Gender
+
+![image](https://github.com/user-attachments/assets/e2c94ee1-36e6-4e2a-a65e-cc5e6e1ce72a)
 
 Non-binary users report the highest Sadness (25%) and Anxiety (20%) with the lowest Happiness (10%), indicating a more negative emotional experience. Non-binary users may face societal challenges, discrimination, or lack of inclusive content on platforms, contributing to higher negative emotions and lower Happiness.
 
