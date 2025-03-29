@@ -46,16 +46,16 @@ I used Excel for cleaning due to its accessibility, familiarity, and efficiency 
 
 **Steps**
 
-1.*Remove Extraneous Text Row*: During initial inspection, I identified text in row 1285 (beyond the intended 1,000 data rows) that appeared to be extraneous or erroneous, such as metadata or a data entry mistake. To prevent this from disrupting subsequent analysis, I selected row 1285, deleted it entirely using Excel’s ‘Delete Row’ function (right-click > Delete), and verified that the dataset retained only the 1,000 valid records. This step ensured no non-data elements interfered with cleaning or analysis. 
+1. *Remove Extraneous Text Row*: During initial inspection, I identified text in row 1285 (beyond the intended 1,000 data rows) that appeared to be extraneous or erroneous, such as metadata or a data entry mistake. To prevent this from disrupting subsequent analysis, I selected row 1285, deleted it entirely using Excel’s ‘Delete Row’ function (right-click > Delete), and verified that the dataset retained only the 1,000 valid records. This step ensured no non-data elements interfered with cleaning or analysis. 
 
 ![image](https://github.com/user-attachments/assets/86f2a85c-0dfb-4a22-8d52-da92c6f0eeb1)
 
-2.*Removed Blank Rows*: Selected columns A-J, used Ctrl+G > Special > Blanks, and deleted blank rows by shifting cells up, consolidating the dataset.  
-3.*Corrected Age/Gender Swaps*: Some rows had age and gender values swapped. Created new columns: ‘Age’ with =IF(ISNUMBER(B2),B2,C2) to keep numbers, and ‘Gender’ with =IF(ISTEXT(C2),C2,B2) to keep text. Copied these as values to replace the original columns, ensuring accurate demographic data.  
-4.*Updated Platform Names*: Renamed ‘Twitter’ to ‘X’ in the Platform column for consistency with current branding. 
-5.*Standardized Column Names*: Converted column names to lowercase (e.g., ‘daily_usage_time_minutes’) for ease of use in analysis.  
-6.*Added Derived Columns*: Created ‘daily_usage_time_hours’ (=daily_usage_time_minutes/60) and ‘age_group’ (=IF(AND(B2>=21,B2<=25),'21-25',IF(AND(B2>=26,B2<=30),'26-30','31-35'))) to enhance analysis. Copied these as values.  
-7.*Verified Data Integrity*: Confirmed the dataset retained 1,000 rows and checked new columns for consistency (e.g., no blanks or errors).
+2. *Removed Blank Rows*: Selected columns A-J, used Ctrl+G > Special > Blanks, and deleted blank rows by shifting cells up, consolidating the dataset.  
+3. *Corrected Age/Gender Swaps*: Some rows had age and gender values swapped. Created new columns: ‘Age’ with =IF(ISNUMBER(B2),B2,C2) to keep numbers, and ‘Gender’ with =IF(ISTEXT(C2),C2,B2) to keep text. Copied these as values to replace the original columns, ensuring accurate demographic data.  
+4. *Updated Platform Names*: Renamed ‘Twitter’ to ‘X’ in the Platform column for consistency with current branding. 
+5. *Standardized Column Names*: Converted column names to lowercase (e.g., ‘daily_usage_time_minutes’) for ease of use in analysis.  
+6. *Added Derived Columns*: Created ‘daily_usage_time_hours’ (=daily_usage_time_minutes/60) and ‘age_group’ (=IF(AND(B2>=21,B2<=25),'21-25',IF(AND(B2>=26,B2<=30),'26-30','31-35'))) to enhance analysis. Copied these as values.  
+7. *Verified Data Integrity*: Confirmed the dataset retained 1,000 rows and checked new columns for consistency (e.g., no blanks or errors).
 
 The dataset was now clean and ready for analysis.
 
