@@ -65,6 +65,7 @@ The dataset was now clean and ready for analysis.
 While I have the most experience with Excel, I chose to perform this analysis in R to leverage its advanced visualization and statistical capabilities, which I learned during the Google Data Analytics course. This was an opportunity to apply my new R skills. I began by importing the cleaned dataset (train.csv) into R, using the read.csv() function, and then used packages like ggplot2 for visualizations and dplyr for data manipulation.
 
 **Step 1: Daily Usage Time vs Dominant Emotions**
+
 My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness). The resulting visualization is shown below:
 
 ![image](https://github.com/user-attachments/assets/298350f4-a19f-4a86-9eb4-05ebca6d1fc8)
@@ -74,6 +75,7 @@ The box plot reveals how daily social media usage time relates to users’ emoti
 I was surprised that more time online correlated with Happiness, as I expected negative emotions like Anxiety or Sadness to dominate due to comparison or overload. This suggests social media can be a positive outlet for many, though the patterns in negative emotions highlight the need to explore why some users may struggle.
 
 **Step 2: Emotion Distribution Across Platforms**
+
 Building on the usage time analysis, I sought to understand how emotional experiences vary by platform. Using R, I created a stacked bar chart with ggplot2, displaying the percentage of each dominant emotion across the platforms in the dataset (Facebook, Instagram, LinkedIn, Snapchat, Telegram, Whatsapp, X). The visualization is shown below:
 
 ![image](https://github.com/user-attachments/assets/772121ec-74a8-451c-aae0-8394d497bf9c)
