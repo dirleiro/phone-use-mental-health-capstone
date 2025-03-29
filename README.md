@@ -3,24 +3,28 @@ Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.cour
 # Introduction
 For the past few of months, I have been pursuing the Google Data Analytics certificate on Coursera, completing eight courses that strenghtened my skills in the six-stage data analysis process (Ask, Prepare, Process, Analyze, Share, Act) and technical tools like Excel, SQL, Tableau, and R. For my capstone, I chose Path B, analyzing a 1,000-user dataset on social media usage and emotional well-being across platforms like Instagram, X, and LinkedIn, focusing on adults aged 21-35. This project allowed me to apply my learning to explore a topic I’m passionate about — how digital habits shape our emotions in a real-world context.
 # Background
-In today’s hyper-connected world, social media has become an inescapable part of daily life. As of 2025, billions of people scroll, post, and engage online, with platforms like Instagram, X, and LinkedIn shaping how we communicate, work, and feel. Yet, this digital immersion comes with a cost. Research increasingly links excessive social media use to shifts in mental health—sometimes boosting happiness through connection, other times fueling anxiety, sadness, or boredom through comparison and overload. Understanding these patterns is more urgent than ever as usage times climb, particularly among younger adults navigating a post-pandemic, screen-saturated reality.
-
-I am a data analyst at MindSpace, a fictional mental health campaign company dedicated to raising awareness about social media’s impact on emotional well-being. Our mission is to empower individuals with insights to balance their digital habits. I chose this topic for my Path B capstone because I’ve seen firsthand how scrolling can shift my mood, and I’ll be analyzing a dataset of 1,000 users habits and emotions across different platforms to uncover broader trends.
+In today’s hyper-connected world, social media is unavoidable. In 2025, the average user spends over 145 minutes daily on platforms like Instagram, X, and LinkedIn, shaping how we connect and feel. Research highlights a dual impact: connection can boost happiness, but comparison and overload often fuel anxiety or sadness. As a data analyst at MindSpace, a fictional mental health campaign company, I’m tasked with uncovering these patterns to promote balanced digital habits. I chose this topic because I’ve noticed how scrolling Instagram lifts my mood while X leaves me drained, and I’m eager to analyze a 1,000-user dataset to reveal broader trends.
 # Stage 1: Ask
-The business task set by our company is to investigate how social media usage influences users emotional well-being while identifying patterns than can promote healthier digital habits.
+The business task set by our company is to investigate how daily social media usage duration and engagement metrics influence users’ emotional well-being, identifying patterns to promote healthier digital habits.
 
-The stakeholders and how they will leverage our findings: 
+**Key Questions**
 
-* MindSpace: To design targeted awareness campaigns.
-* Mental Health Professionals: To advise clients on managing social media for better emotional health 
-* Individuals: To adjust their digital habits with actionable insights.
-* Platform Representatives : To enhance user experience and well-being features.
+* How does daily usage time correlate with dominant emotions?
+* Which platforms are associated with positive vs negative emotions?
+* Are there demographic differences (age, gender) in emotional responses to social media?
 
-The objectives include:
+**Stakeholders and how they will leverage our findings**
 
-* Analyzing the relationship between social media usage patterns and dominant emotions to establish clear connections.  
-* Identifying specific platforms or behaviors linked to positive or negative emotional outcomes, pinpointing areas of opportunity or concern.  
-* Providing actionable recommendations for promoting healthier digital habits, based on the analysis, to improve users emotional well-being and support MindSpace’s goals.
+* MindSpace: To craft targeted campaigns using platform-specific insights.
+* Mental Health Professionals: To guide clients based on usage-emotion links 
+* Individuals: To adjust habits with data-driven recommendations.  
+* Platform Representatives : To enhance well-being features using emotional trends.
+
+**Objectives**
+
+* Analyze usage time and engagement to establish emotional correlations.
+* Identify platforms and behaviors linked to positive or negative emotions.  
+* Provide actionable recommendations to improve well-being, supporting MindSpace’s mission.
 # Stage 2: Prepare
 The dataset used for this analysis is the [Social Media Usage and Emotional Well-Being](https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being/data) dataset, sourced from Kaggle and created by AI Inventor, Emirhan Bulut. It contains 1,000 records of anonymized user data across various social media platforms, including Instagram, X and LinkedIn. The dataset includes the following key columns:
 * User ID: A unique identifier for each user.
