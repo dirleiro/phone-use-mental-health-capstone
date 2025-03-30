@@ -59,7 +59,7 @@ The dataset was now clean and ready for analysis.
 ![image](https://github.com/user-attachments/assets/b74b4507-71d0-4dc1-9fcb-3701a81e4a7a)
 
 # Stage 4: Analyze
-While I'm most comfortable with Excel, I chose to perform this analysis in R to leverage its advanced visualization and statistical capabilities, which I learned during the Google Data Analytics course. This was an opportunity to stretch beyond my Excel roots and apply my new R skills. I began by importing the cleaned dataset (train.csv) into R, using the read.csv() function, and then used packages like ggplot2 for visualizations and dplyr for data manipulation.
+While I'm most comfortable with Excel, I chose to perform this analysis in R to leverage its advanced visualization and statistical capabilities, which I learned during the Google Data Analytics course. This was an opportunity to stretch beyond my Excel roots and apply my new R skills. I began by importing the cleaned dataset (train.csv) into R, using the read.csv() function, and then used packages like ggplot2 for visualizations and dplyr for data manipulation. [View my R script here.](https://github.com/your-username/your-repo/blob/main/script.R)
 
 **Step 1: Daily Usage Time vs Dominant Emotions**
 
