@@ -1,7 +1,7 @@
 # Google Data Analytics Capstone: Social Media Usage vs Emotional Well-Being
 Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 # Introduction
-For the past few of months, I have been pursuing the Google Data Analytics certificate on Coursera, completing eight courses that strenghtened my skills in the six-stage data analysis process (Ask, Prepare, Process, Analyze, Share, Act) and technical tools like Excel, SQL, Tableau, and R. For my capstone, I chose Path B, analyzing a 1,000-user dataset on social media usage and emotional well-being across platforms like Instagram, X, and LinkedIn, focusing on adults aged 21-35. This project allowed me to apply my learning to explore a topic I’m passionate about — how digital habits shape our emotions in a real-world context.
+For the past few months, I have been pursuing the Google Data Analytics certificate on Coursera, completing eight courses that strengthened my skills in the six-stage data analysis process (Ask, Prepare, Process, Analyze, Share, Act) and technical tools like Excel, SQL, Tableau, and R. For my capstone, I chose Path B, analyzing a 1,000-user dataset on social media usage and emotional well-being across platforms like Instagram, X, and LinkedIn, focusing on adults aged 21-35. This project allowed me to apply my learning to explore a topic I’m passionate about — how digital habits shape our emotions in a real-world context.
 # Background
 In today’s hyper-connected world, social media is unavoidable. In 2025, the average user spends over 145 minutes daily on platforms like Instagram, X, and LinkedIn, shaping how we connect and feel. Research highlights a dual impact: connection can boost happiness, but comparison and overload often fuel anxiety or sadness. As a data analyst at MindSpace, a fictional mental health campaign company, I’m tasked with uncovering these patterns to promote balanced digital habits. I chose this topic because I’ve noticed how scrolling Instagram lifts my mood while X leaves me drained, and I’m eager to analyze a 1,000-user dataset to reveal broader trends.
 # Stage 1: Ask
@@ -33,7 +33,7 @@ The dataset used, [Social Media Usage and Emotional Well-Being](https://www.kagg
 * Likes_Received_Per_Day: Daily likes received (5-110).
 * Comments_Received_Per_Day: Daily comments received (2-40).
 * Messages_Sent_Per_Day: Daily messages sent (8-50).
-* Dominant_Emotion: The user’s self-reported primary emotion (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness).
+* Dominant_Emotion: The user’s self-reported primary emotion (Sadness, Anger, Anxiety, Boredom, Neutral, Happiness).
 
 This dataset’s mix of quantitative usage metrics and qualitative emotional outcomes directly supports MindSpace’s goal of linking usage to emotions.
 
@@ -63,7 +63,7 @@ While I'm most comfortable with Excel, I chose to perform this analysis in R to 
 
 **Step 1: Daily Usage Time vs Dominant Emotions**
 
-My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness).
+My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Sadness, Anger, Anxiety, Boredom, Neutral, Happiness).
 
 ![image](https://github.com/user-attachments/assets/298350f4-a19f-4a86-9eb4-05ebca6d1fc8)
 
