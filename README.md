@@ -15,10 +15,7 @@ The business task set by our company is to investigate how daily social media us
 
 **Stakeholders and how they will leverage our findings**
 
-* MindSpace: To craft targeted campaigns using platform-specific insights.
-* Mental Health Professionals: To guide clients based on usage-emotion links 
-* Individuals: To adjust habits with data-driven recommendations.  
-* Platform Representatives : To enhance well-being features using emotional trends.
+* MindSpace: To focus on insights and recommendations that help MindSpace design campaigns to promote mental well-being through social media.
 
 **Objectives**
 
@@ -46,16 +43,16 @@ I used Excel for cleaning due to its accessibility, familiarity, and efficiency 
 
 **Steps**
 
-1. *Remove Extraneous Text Row*: During initial inspection, I identified text in row 1285 (beyond the intended 1,000 data rows) that appeared to be extraneous or erroneous, such as metadata or a data entry mistake. To prevent this from disrupting subsequent analysis, I selected row 1285, deleted it entirely using Excel’s ‘Delete Row’ function (right-click > Delete), and verified that the dataset retained only the 1,000 valid records. This step ensured no non-data elements interfered with cleaning or analysis. 
+1. **Remove Extraneous Text Row**: During initial inspection, I identified text in row 1285 (beyond the intended 1,000 data rows) that appeared to be extraneous or erroneous, such as metadata or a data entry mistake. To prevent this from disrupting subsequent analysis, I selected row 1285, deleted it entirely using Excel’s ‘Delete Row’ function (right-click > Delete), and verified that the dataset retained only the 1,000 valid records. This step ensured no non-data elements interfered with cleaning or analysis. 
 
 ![image](https://github.com/user-attachments/assets/86f2a85c-0dfb-4a22-8d52-da92c6f0eeb1)
 
-2. *Removed Blank Rows*: Selected columns A-J, used Ctrl+G > Special > Blanks, and deleted blank rows by shifting cells up, consolidating the dataset.  
-3. *Corrected Age/Gender Swaps*: Some rows had age and gender values swapped. Created new columns: ‘Age’ with =IF(ISNUMBER(B2),B2,C2) to keep numbers, and ‘Gender’ with =IF(ISTEXT(C2),C2,B2) to keep text. Copied these as values to replace the original columns, ensuring accurate demographic data.  
-4. *Updated Platform Names*: Renamed ‘Twitter’ to ‘X’ in the Platform column for consistency with current branding. 
-5. *Standardized Column Names*: Converted column names to lowercase (e.g., ‘daily_usage_time_minutes’) for ease of use in analysis.  
-6. *Added Derived Columns*: Created ‘daily_usage_time_hours’ (=daily_usage_time_minutes/60) and ‘age_group’ (=IF(AND(B2>=21,B2<=25),'21-25',IF(AND(B2>=26,B2<=30),'26-30','31-35'))) to enhance analysis. Copied these as values.  
-7. *Verified Data Integrity*: Confirmed the dataset retained 1,000 rows and checked new columns for consistency (e.g., no blanks or errors).
+2. **Removed Blank Rows**: Selected columns A-J, used Ctrl+G > Special > Blanks, and deleted blank rows by shifting cells up, consolidating the dataset.  
+3. **Corrected Age/Gender Swaps**: Some rows had age and gender values swapped. Created new columns: ‘Age’ with =IF(ISNUMBER(B2),B2,C2) to keep numbers, and ‘Gender’ with =IF(ISTEXT(C2),C2,B2) to keep text. Copied these as values to replace the original columns, ensuring accurate demographic data.  
+4. **Updated Platform Names**: Renamed ‘Twitter’ to ‘X’ in the Platform column for consistency with current branding. 
+5. **Standardized Column Names**: Converted column names to lowercase (e.g., ‘daily_usage_time_minutes’) for ease of use in analysis.  
+6. **Added Derived Columns**: Created ‘daily_usage_time_hours’ (=daily_usage_time_minutes/60) and ‘age_group’ (=IF(AND(B2>=21,B2<=25),'21-25',IF(AND(B2>=26,B2<=30),'26-30','31-35'))) to enhance analysis. Copied these as values.  
+7. **Verified Data Integrity**: Confirmed the dataset retained 1,000 rows and checked new columns for consistency (e.g., no blanks or errors).
 
 The dataset was now clean and ready for analysis.
 
@@ -66,7 +63,7 @@ While I'm most comfortable with Excel, I chose to perform this analysis in R to 
 
 **Step 1: Daily Usage Time vs Dominant Emotions**
 
-My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness). The resulting visualization is shown below:
+My first step was to explore how daily usage time correlates with users’ dominant emotions. I created a box plot in R using ggplot2 to visualize the distribution of daily usage time (in minutes) across each dominant emotion category (Sadness, Anger, Anxiety, Boredom, Neutral, Hapiness).
 
 ![image](https://github.com/user-attachments/assets/298350f4-a19f-4a86-9eb4-05ebca6d1fc8)
 
@@ -76,7 +73,7 @@ I was surprised that more time online correlated with Happiness, as I expected n
 
 **Step 2: Emotion Distribution Across Platforms**
 
-Building on the usage time analysis, I sought to understand how emotional experiences vary by platform. Using R, I created a stacked bar chart with ggplot2, displaying the percentage of each dominant emotion across the platforms in the dataset (Facebook, Instagram, LinkedIn, Snapchat, Telegram, Whatsapp, X). The visualization is shown below:
+Building on the usage time analysis, I sought to understand how emotional experiences vary by platform. Using R, I created a stacked bar chart with ggplot2, displaying the percentage of each dominant emotion across the platforms in the dataset (Facebook, Instagram, LinkedIn, Snapchat, Telegram, Whatsapp, X).
 
 ![image](https://github.com/user-attachments/assets/772121ec-74a8-451c-aae0-8394d497bf9c)
 
@@ -86,7 +83,7 @@ These patterns suggest MindSpace can promote platforms like Instagram for positi
 
 **Step 3: Engagement Metrics by Emotion**
 
-Next, I explored how emotions influence online engagement, focusing on likes, posts, comments, and messages per day. I created a set of box plots in R using ggplot2 to visualize these engagement metrics across each dominant emotion. The visualization is shown below:
+Next, I explored how emotions influence online engagement, focusing on likes, posts, comments, and messages per day. I created a set of box plots in R using ggplot2 to visualize these engagement metrics across each dominant emotion.
 
 ![image](https://github.com/user-attachments/assets/a5350112-48b4-4f97-8eb3-f79817542bc4)
 
@@ -96,7 +93,7 @@ For MindSpace, this suggests encouraging active, positive engagement while suppo
 
 **Step 4: Emotion Distribution by Age Group**
 
-Moving forward, I analyzed how emotions shift across age groups. I created a stacked bar chart with ggplot2, displaying the percentage of each dominant emotion across the age groups in the dataset (21-25, 26-30 and 31-35). The visualization is shown below:
+Moving forward, I analyzed how emotions shift across age groups. I created a stacked bar chart with ggplot2, displaying the percentage of each dominant emotion across the age groups in the dataset (21-25, 26-30 and 31-35).
 
 ![image](https://github.com/user-attachments/assets/bd5ac9b9-6f8e-4a99-b49c-12c758d1e7c7)
 
@@ -129,7 +126,7 @@ These statistics reinforce the emotional trends observed across platforms, age, 
 
 # Stage 5: Share
 
-Our findings were presented to all stakeholder groups—MindSpace, mental health professionals, platform representatives, and individual users—through customized presentations. These presentations highlighted the emotional dynamics of social media usage and set the stage for actionable recommendations.
+My findings were presented to MindSpace senior leadership team through a tailored presentation designed to inform their mental health campaign strategists. These insights highlighted the emotional dynamics of social media usage and set the stage for actionable campaign recommendations.
 
 **Key Insights**
 
@@ -152,6 +149,9 @@ These insights lay the groundwork for sharing findings and making recommendation
 
 Based on the analysis and shared insights, I developed actionable recommendations for each stakeholder group to leverage the findings and improve emotional well-being.
 
+**Recommendations for Mindspace**
 
+
+* Promote inclusive content for non-binary users. 
 
 
