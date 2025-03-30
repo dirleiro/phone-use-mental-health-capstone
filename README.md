@@ -149,9 +149,54 @@ These insights lay the groundwork for sharing findings and making recommendation
 
 Based on the analysis and shared insights, I developed actionable recommendations for each stakeholder group to leverage the findings and improve emotional well-being.
 
-**Recommendations for Mindspace**
+**Leverage Instagram for Positive Engagement**
+
+Happiness is strongly linked to Instagram, where users spend more time (averaging 150.5 minutes daily for happy users) and engage actively. A recommendation would be to launch a "Happiness Challenge". This would encourage users to share uplifting stories or participate in gratitude challenges (e.g., "Post 3 things that made you smile today") with a branded hashtag like #MindSpaceJoy. 
+
+**Mitigate Anger on X**
+
+X is heavily associated with anger, likely due to its debate-driven environment. This could be tackled by promoting constructive dialogue. Launch a campaign encouraging users to pause and reflect before posting, using a hashtag like #PauseBeforeYouPost or #MindfulX.
+
+**Tailor Campaigns to Age-Specific Emotional Needs**
+
+Younger users (21-25) report high happiness, while older users (26-35) experience increasing anxiety, sadness, and boredom.
+
+Recommendations for each age: 
+
+For ages 21-25: Create celebratory content like a "Digital Joy" series, highlighting fun, creative ways to engage online.
+
+For ages 26-30: Address rising anxiety with campaigns offering stress management tips, such as mindfulness exercises or work-life balance advice.
+
+For ages 31-35: Combat sadness and boredom with content on rediscovering hobbies or managing digital fatigue (e.g., "Unplug & Recharge" tips).
+
+**Address Emotional Challenges for Non-Binary Users**
+
+Non-binary users reported the highest levels of sadness (25%) and anxiety (20%), with the lowest happiness (10%), indicating a more negative emotional experience. It is recommended to create campaigns featuring non-binary role models. This could be achieved by developing a series of social media posts or videos showcasing positive stories and experiences from non-binary individuals to foster a sense of belonging and reduce isolation.
+
+**Measure Campaign Impact**
+
+Tracking the impact of our campaigns is essential to ensure alignment with our goals. This can be achieved by distributing short post-campaign surveys to assess changes in emotional well-being and collect user feedback, alongside establishing clear metrics—such as engagement rates or sentiment shifts—that keep us focused on our mission to promote healthier digital habits
+
+# The End
+
+Thank you for reading my capstone project all the way through. I hope you found it engaging! I’d truly appreciate any feedback you could share to help me refine it further. Wishing you a wonderful day!
 
 
-* Promote inclusive content for non-binary users. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
