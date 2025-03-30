@@ -96,17 +96,15 @@ For MindSpace, this suggests encouraging active, positive engagement while suppo
 
 **Step 4: Emotion Distribution by Age Group**
 
-Happiness drives the highest engagement across all metrics, with medians of 40 likes, 4 posts, 25 comments, and 30 messages per day, showing that happy users are the most active. Positive emotions likely encourage users to share more content, interact with others, and engage in social behaviors, as Happiness fosters a sense of connection and reward on platforms.
-
-Anger leads to the most comments among negative emotions (median 20 comments), while Boredom consistently has the lowest engagement (medians of 15 likes, 1 post, 10 comments, 10 messages). Angry users may post provocative content that sparks debates, leading to more comments, whereas bored users lack motivation to engage, resulting in minimal activity.
+Moving forward, I analyzed how emotions shift across age groups. I created a stacked bar chart with ggplot2, displaying the percentage of each dominant emotion across the age groups in the dataset (21-25, 26-30 and 31-35). The visualization is shown below:
 
 ![image](https://github.com/user-attachments/assets/bd5ac9b9-6f8e-4a99-b49c-12c758d1e7c7)
 
-The 21–25 age group reports the highest Happiness (30%) and the lowest negative emotions (Sadness, Anger, Anxiety at 10% each), while Happiness decreases with age (20% for 26–30 and 31–35). Younger users (21–25) may be more carefree, using platforms for entertainment and social connection, while older users face more life stressors (e.g., career, relationships), reducing Happiness and increasing negative emotions.
-
-The 26–30 age group has the highest Anxiety (25%), and the 31–35 age group has the highest Sadness (25%) and Boredom (20%). The 26–30 group might experience anxiety due to life transitions (e.g., job changes, relationships), while the 31–35 group’s Sadness and Boredom could stem from reflection or feeling disconnected as they age.
+Users aged 21–25 overflow with Happiness and show low negativity, embracing social media’s playful side. Happiness declines with age, while Anxiety peaks at 26–30 (perhaps due to career pressures) and Sadness and Boredom rise at 31–35 (possibly from disconnection or fatigue). Research suggests younger users enjoy a "novelty wave" online, while older users face comparison fatigue.
 
 **Step 5: Emotion Distribution by Gender**
+
+Finally, I explored emotional differences across gender groups (male,female and non-binary), using a stacked bar chart to visualize the distribution of dominant emotions.
 
 ![image](https://github.com/user-attachments/assets/e2c94ee1-36e6-4e2a-a65e-cc5e6e1ce72a)
 
@@ -114,7 +112,9 @@ Non-binary users report the highest Sadness (25%) and Anxiety (20%) with the low
 
 Female users have the highest Happiness (25%) and the lowest Anger (10%), while male users report more Anger (15%) than female and non-binary users (10% each). Female users might engage more with Happiness-driven platforms like Instagram, while male users may be more exposed to or participate in contentious interactions (e.g., debates on X), leading to higher Anger.
 
-Table: Summary Statistics by Dominant Emotion
+**Summary of Statistical Insights**
+
+The table below consolidated the average metrics across emotions.
 
 |dominant_emotion | Avg_Usage_Time| Avg_Posts| Avg_Likes| Avg_Comments| Avg_Messages|
 |:----------------|--------------:|---------:|---------:|------------:|------------:|
@@ -125,11 +125,30 @@ Table: Summary Statistics by Dominant Emotion
 |Neutral          |           77.8|       2.4|      27.8|         10.9|         18.5|
 |Happiness        |          150.5|       5.7|      75.6|         26.9|         32.7|
 
-Happiness has the highest averages across all metrics: 150.5 minutes of usage time, 5.7 posts, 75.6 likes, 26.9 comments, and 32.7 messages per day, reinforcing its role as the primary driver of engagement. Happy users are likely motivated by positive reinforcement (e.g., likes, comments) and social connection, leading to prolonged and active engagement on platforms.
+These statistics reinforce the emotional trends observed across platforms, age, and gender, highlighting social media’s dual role as a source of joy and a potential stressor.
 
-Boredom has the lowest averages (63.9 minutes, 1.6 posts, 15.4 likes, 7.0 comments, 14.1 messages), while Anger leads in comments (18.5) among negative emotions. Boredom’s low engagement reflects a lack of motivation to interact, while Anger’s high comments suggest that angry users post content that provokes reactions, possibly due to controversial or emotional topics.
+# Stage 5: Share
+
+Our findings were presented to all stakeholder groups—MindSpace, mental health professionals, platform representatives, and individual users—through customized presentations. These presentations highlighted the emotional dynamics of social media usage and set the stage for actionable recommendations.
+
+**Key Insights**
+
+**Happiness drives higher usage time and engagement, especially on Instagram.**
+Users experiencing Happiness spend more time online (averaging 150.5 minutes daily) and engage actively, particularly on Instagram, where positivity thrives.  
+
+**Platform-specific emotions vary—Instagram boosts Happiness, X amplifies Anger.**
+Instagram fosters joy through visual content, while X’s debate-driven environment heightens Anger, shaping distinct emotional experiences.  
+
+**Age shapes emotional experiences, with younger users thriving and older users facing negativity.**
+Younger users (21–25) report high Happiness, while older users (26–35) experience rising Anxiety, Sadness, and Boredom.  
+
+**Gender impacts emotions, with non-binary users showing more Sadness and Anxiety.**
+Non-binary users face elevated Sadness and Anxiety, female users lean toward Happiness, and male users exhibit more Anger.
+
+These insights lay the groundwork for sharing findings and making recommendations tailored to each stakeholder group.
 
 
+# Stage 6: Act
 
 
 
