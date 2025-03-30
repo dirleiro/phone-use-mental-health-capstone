@@ -85,7 +85,7 @@ p_age_emotion <- ggplot(age_emotion, aes(x = age_group, y = percentage, fill = d
   scale_fill_manual(values = emotion_colors) +
   theme_minimal() +
   theme(panel.grid.major.y = element_line(color = "grey90")) +
-  labs(title = "Aging Emotions: How Feelings Shift Over Time", x = "", y = "Percentage (%)", fill = "Dominant Emotion") +
+  labs(title = "How Feelings Shift Over Time", x = "", y = "Percentage (%)", fill = "Dominant Emotion") +
   theme(plot.title = element_text(hjust = 0.5, size = 14))
 
 print(p_age_emotion)
