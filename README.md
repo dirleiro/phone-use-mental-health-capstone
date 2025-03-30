@@ -1,4 +1,4 @@
-# Google Data Analytics Capstone: Social Media Usage vs Emotional Well-Being
+# Google Data Analytics Capstone: Emotions in the Feed
 Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 # Introduction
 For the past few months, I have been pursuing the Google Data Analytics certificate on Coursera, completing eight courses that strengthened my skills in the six-stage data analysis process (Ask, Prepare, Process, Analyze, Share, Act) and technical tools like Excel, SQL, Tableau, and R. For my capstone, I chose Path B, analyzing a 1,000-user dataset on social media usage and emotional well-being across platforms like Instagram, X, and LinkedIn, focusing on adults aged 21-35. This project allowed me to apply my learning to explore a topic I’m passionate about — how digital habits shape our emotions in a real-world context.
