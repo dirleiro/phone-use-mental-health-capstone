@@ -42,7 +42,7 @@ This dataset’s mix of quantitative usage metrics and qualitative emotional out
 
 Hosted on Kaggle, the dataset is credible for educational purposes, but its synthetic nature and lack of real-world collection details limit authenticity. Biases include subjective self-reported emotions, a narrow 21-35 age range (excluding older/younger users), and uneven platform representation (e.g., Instagram’s prominence), which may skew emotional trends.
 # Stage 3: Process
-I used Excel for cleaning due to its accessibility, familiarity, and efficiency for 1,000 rows, though larger datasets might require R or SQL. Steps:  
+I used Excel for cleaning due to its accessibility, familiarity, and efficiency for 1,000 rows, though larger datasets might require R or SQL.
 
 **Steps**
 
@@ -62,7 +62,7 @@ The dataset was now clean and ready for analysis.
 ![image](https://github.com/user-attachments/assets/b74b4507-71d0-4dc1-9fcb-3701a81e4a7a)
 
 # Stage 4: Analyze
-While I have the most experience with Excel, I chose to perform this analysis in R to leverage its advanced visualization and statistical capabilities, which I learned during the Google Data Analytics course. This was an opportunity to apply my new R skills. I began by importing the cleaned dataset (train.csv) into R, using the read.csv() function, and then used packages like ggplot2 for visualizations and dplyr for data manipulation.
+While I'm most comfortable with Excel, I chose to perform this analysis in R to leverage its advanced visualization and statistical capabilities, which I learned during the Google Data Analytics course. This was an opportunity to stretch beyond my Excel roots and apply my new R skills. I began by importing the cleaned dataset (train.csv) into R, using the read.csv() function, and then used packages like ggplot2 for visualizations and dplyr for data manipulation.
 
 **Step 1: Daily Usage Time vs Dominant Emotions**
 
