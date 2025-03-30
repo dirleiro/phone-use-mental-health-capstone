@@ -103,7 +103,7 @@ Users aged 21–25 overflow with Happiness and show low negativity, embracing so
 
 Finally, I explored emotional differences across gender groups (male,female and non-binary), using a stacked bar chart to visualize the distribution of dominant emotions.
 
-![image](https://github.com/user-attachments/assets/e2c94ee1-36e6-4e2a-a65e-cc5e6e1ce72a)
+![image](https://github.com/user-attachments/assets/1102e727-af69-4cb3-88ce-aef81631393f)
 
 Non-binary users report the highest Sadness (25%) and Anxiety (20%) with the lowest Happiness (10%), indicating a more negative emotional experience. Non-binary users may face societal challenges, discrimination, or lack of inclusive content on platforms, contributing to higher negative emotions and lower Happiness.
 
