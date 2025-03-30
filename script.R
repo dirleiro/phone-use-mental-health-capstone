@@ -104,7 +104,7 @@ p_gender_emotion <- ggplot(gender_emotion, aes(x = gender, y = percentage, fill 
   scale_fill_manual(values = emotion_colors) +
   theme_minimal() +
   theme(panel.grid.major.y = element_line(color = "grey90")) +
-  labs(title = "Gendered Emotions in the Digital World", x = "", y = "Percentage (%)", fill = "Dominant Emotion") +
+  labs(title = "Gender vs Emotions in the Digital World", x = "", y = "Percentage (%)", fill = "Dominant Emotion") +
   theme(plot.title = element_text(hjust = 0.5, size = 14))
 
 print(p_gender_emotion)
