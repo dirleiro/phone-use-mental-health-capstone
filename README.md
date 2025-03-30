@@ -95,7 +95,8 @@ For MindSpace, this suggests encouraging active, positive engagement while suppo
 
 Moving forward, I analyzed how emotions shift across age groups. I created a stacked bar chart with ggplot2, displaying the percentage of each dominant emotion across the age groups in the dataset (21-25, 26-30 and 31-35).
 
-![image](https://github.com/user-attachments/assets/bd5ac9b9-6f8e-4a99-b49c-12c758d1e7c7)
+![image](![image](https://github.com/user-attachments/assets/4faabef0-2031-40e6-8891-5838ab789a5d)
+
 
 Users aged 21–25 overflow with Happiness and show low negativity, embracing social media’s playful side. Happiness declines with age, while Anxiety peaks at 26–30 (perhaps due to career pressures) and Sadness and Boredom rise at 31–35 (possibly from disconnection or fatigue). Research suggests younger users enjoy a "novelty wave" online, while older users face comparison fatigue.
 
