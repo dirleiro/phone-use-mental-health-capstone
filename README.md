@@ -150,6 +150,8 @@ These insights lay the groundwork for sharing findings and making recommendation
 
 # Stage 6: Act
 
+Based on the analysis and shared insights, I developed actionable recommendations for each stakeholder group to leverage the findings and improve emotional well-being.
+
 
 
 
